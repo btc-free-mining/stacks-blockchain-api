@@ -18,7 +18,6 @@ import {
   isValidC32Address,
   bufferToHexPrefixString,
   isValidPrincipal,
-  RespError,
 } from '../../helpers';
 import { isUnanchoredRequest, getBlockHeightPathParam } from '../query-helpers';
 import { parseLimitQuery, parsePagingQueryInput } from '../pagination';
